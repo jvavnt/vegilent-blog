@@ -12,7 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.imgbox{
+display: flex;
+width: 100px;
+height: 70px;
+}
+.main{
+display: flex;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -33,6 +40,81 @@
     transform: rotate(0deg);
   }
   to {
+
     transform: rotate(360deg);
   }
+}
+
+/* Navbar css */
+.Navbox{
+  margin: 0px 10px 0px 0px;
+  width: 100%;
+  border-radius: 32px;
+  /* border: 2px solid black; */
+}
+li{
+  list-style: none;
+}
+.navitems{
+  /* margin-left: -10px; */
+  display: flex;
+  text-decoration: none;
+  font-size:20px;
+  border: 1px solid ;
+  width:100px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+ 
+}
+.navul{
+  display:flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cur-product css */
+
+.Cur-product{
+  width:90%;
+  display: flex;
+  margin-left: 4rem;
+  gap: 5.5rem;
+  overflow: hidden;
+  /* border: 2px solid; */
+}
+.main-box{
+  /* border: 2px solid; */ 
+}
+.img-box{
+display: flex;
+border: 2px solid;
+width: 120%;
+/* padding: 2rem; */
+justify-content: space-around;
+margin: 2rem;
+border-radius: 12px;
+}
+.myimg{
+  padding: 1rem;
+}
+
+.open{
+  width: 50%;
+  height: 30px;
+  border-radius: 12px;
+  margin-right: 7rem;
+}
+
+.img-content{
+padding: 2rem;
+}
+
+.likeicons{
+display: flex;
+font-size: 20px;
+gap: 1rem;
+margin-top:-1rem;
+margin-left: 9rem;
 }
